@@ -11,7 +11,7 @@ public class Main {
         System.out.println("1. Сумма трат за месяц составила " + totalSum + " рублей");
 
         // Задача 2: Минимальная и максимальная траты
-        int   minPayment = payments[0];
+        int minPayment = payments[0];
         int maxPayment = payments[0];
         for (int payment : payments) {
             if (payment < minPayment) minPayment = payment;
